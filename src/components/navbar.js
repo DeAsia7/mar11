@@ -1,12 +1,12 @@
 import React from 'react';
 
-import {link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Navbar(){
 return (
     <nav style={styles.navbar}>
         <ul>
-            <li>link to="/" </li>
+        <li> <Link to=""> Go Here</Link></li>
         </ul>
     </nav>
 )
