@@ -8,7 +8,7 @@ function About() {
     <div>
         <h1>About us</h1>
         <p>holy molly donut shop</p>
-<button onClick={()=> seetShowMore(true)}>Show More</button>
+<button onClick={()=> setShowMore(true)}>Show More</button>
 {showMore  (
     <p>donuts</p>
 )}
