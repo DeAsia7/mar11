@@ -1,10 +1,12 @@
-import react from "react":
+import React from "react";
 
-function Footer( {
+function Footer() {
     return (
         <footer>
         <p> Copyright 2025 DeAsia Mallory
         </p>
         </footer>
     )
-});
+};
+
+

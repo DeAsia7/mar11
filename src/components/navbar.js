@@ -6,7 +6,7 @@ function Navbar(){
 return (
     <nav style={styles.navbar}>
         <ul>
-            <li><link to="/" </li>
+            <li>link to="/" </li>
         </ul>
     </nav>
 )
@@ -15,13 +15,13 @@ return (
 
 const styles = {
     navbar: {
-        backgroundColor: "white"
+        backgroundColor: "purple",
         padding: "10px"
     }, 
     navlist: {
-        liststyle: "none"
+        liststyle: "none",
         display: "flex"
-        
+
     }
 }
 

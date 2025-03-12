@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function About() {
-    const [shownore, seetShowMore] = useState(false);
+    const [showMore, setShowMore] = useState(false);
 
     return (
 
@@ -9,10 +9,11 @@ function About() {
         <h1>About us</h1>
         <p>holy molly donut shop</p>
 <button onClick={()=> seetShowMore(true)}>Show More</button>
-{show  (
+{showMore  (
     <p>donuts</p>
 )}
-
     </div>
     )
 }
+
+export default About;
