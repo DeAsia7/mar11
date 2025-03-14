@@ -8,10 +8,13 @@ function About() {
     <div>
         <h1>About us</h1>
         <p>holy molly donut shop</p>
-<button onClick={()=> setShowMore(true)}>Show More</button>
-{showMore  (
+
+<button onClick={() => setShowMore(!showMore)} > { showMore ? "Show Less" : "Show More"}</button>
+
+{showMore && (
     <p>donuts</p>
 )}
+
     </div>
     )
 }
